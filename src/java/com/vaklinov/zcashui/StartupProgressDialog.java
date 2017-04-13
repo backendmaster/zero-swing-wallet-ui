@@ -55,7 +55,7 @@ public class StartupProgressDialog extends JFrame {
         //imageIcon = new ImageIcon(iconUrl);
         //imageLabel.setIcon(imageIcon);
         imageLabel.setText("\u01B5ERO");
-        imageLabel.setFont(new Font("Helvetica", Font.BOLD | Font.ITALIC, 90));
+        imageLabel.setFont(new Font("Helvetica", Font.BOLD | Font.ITALIC, 110));
         imageLabel.setBorder(BorderFactory.createEmptyBorder(16, 16, 0, 16));
         Container contentPane = getContentPane();
         contentPane.setLayout(borderLayout1);
