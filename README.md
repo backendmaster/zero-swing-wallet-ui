@@ -1,6 +1,6 @@
-# [ZERO](https://bitcointalk.org/index.php?topic=1796036.460) Desktop GUI Wallet
+# [ZERO](https://bitcointalk.org/index.php?topic=1796036.0) Desktop GUI Wallet
 
-## Graphical user interface wrapper for the [ZERO](https://bitcointalk.org/index.php?topic=1796036.460) command line tools
+## Graphical user interface wrapper for the [ZERO](https://bitcointalk.org/index.php?topic=1796036.0) command line tools
 
 This program provides a Graphical User Interface (GUI) for the ZERO client tools that acts as a wrapper and 
 presents the information in a user-friendly manner.
@@ -10,7 +10,7 @@ presents the information in a user-friendly manner.
 
 ## Building, installing and running the Wallet GUI
 
-Before installing the Desktop GUI Wallet you need to have ZERO up and running. The following [guide](https://github.com/zerocurrency/zero) explains how to set up [ZERO](https://bitcointalk.org/index.php?topic=1796036.460). 
+Before installing the Desktop GUI Wallet you need to have ZERO up and running. The following [guide](https://github.com/zerocurrency/zero) explains how to set up [ZERO](https://bitcointalk.org/index.php?topic=1796036.0). 
 
 **For security reasons it is recommended to always build the GUI wallet program from GitHub**
 **[source](https://github.com/vaklinov/zero-swing-wallet-ui/archive/master.zip).**
@@ -51,7 +51,7 @@ The details of how to build it are described below (easy to follow).
    This takes a few seconds and when it finishes, it builds a JAR file `./build/jars/ZEROSwingWalletUI.jar`. 
    You need to make this file executable:
    ```
-   user@ubuntu:~/build-dir/zcash-swing-wallet-ui$ chmod u+x ./build/jars/ZEROSwingWalletUI.jar
+   user@ubuntu:~/build-dir/zero-swing-wallet-ui$ chmod u+x ./build/jars/ZEROSwingWalletUI.jar
    ```
    At this point the build process is finished the built GUI wallet program is the JAR 
    file `./build/jars/ZEROSwingWalletUI.jar`
@@ -75,7 +75,7 @@ The details of how to build it are described below (easy to follow).
    Assuming you have already installed Zero and the GUI Wallet `ZEROSwingWalletUI.jar` in 
    directory `/home/user/zero/src` one way to run it from command line is:
    ```
-   user@ubuntu:~/build-dir/zero-swing-wallet-ui$ java -jar /home/user/zcash/src/ZEROSwingWalletUI.jar
+   user@ubuntu:~/build-dir/zero-swing-wallet-ui$ java -jar /home/user/zero/src/ZEROSwingWalletUI.jar
    ```
    If you are using Ubuntu (or similar ;) Linux you may instead just use the file manager and 
    right-click on the `ZEROSwingWalletUI.jar` file and choose the option "Open with OpenJDK 8 Runtime". 
@@ -84,7 +84,7 @@ The details of how to build it are described below (easy to follow).
 ### Donations accepted
 At the present time this project is non-commercial in nature and developed by volunteers. If you find the GUI
 Wallet useful, please consider making a donation for its further development. Your contribution matters! Donations 
-are accepted at ZCash T address:
+are accepted at Zero T address:
 ```
 t1UDhNq2aEqvxEbPzcRM8n2QJV8YJ664rXJ
 ```
