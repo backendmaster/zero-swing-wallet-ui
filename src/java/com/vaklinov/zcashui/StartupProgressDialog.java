@@ -55,7 +55,7 @@ public class StartupProgressDialog extends JFrame {
         //imageIcon = new ImageIcon(iconUrl);
         //imageLabel.setIcon(imageIcon);
         imageLabel.setText("\u01B5ERO");
-        imageLabel.setFont(new Font("Helvetica", Font.BOLD | Font.ITALIC, 65));
+        imageLabel.setFont(new Font("Helvetica", Font.BOLD | Font.ITALIC, 90));
         imageLabel.setBorder(BorderFactory.createEmptyBorder(16, 16, 0, 16));
         Container contentPane = getContentPane();
         contentPane.setLayout(borderLayout1);
@@ -63,8 +63,8 @@ public class StartupProgressDialog extends JFrame {
         southPanel.setBorder(BorderFactory.createEmptyBorder(0, 16, 16, 16));
         contentPane.add(imageLabel, BorderLayout.NORTH);
 		JLabel zcashWalletLabel = new JLabel(
-			"<html><span style=\"font-style:italic;font-weight:bold;font-size:25px\">" + 
-		    "ZERO Wallet</span></html>");
+			"<html><span style=\"font-style:italic;font-weight:bold;font-size:22px\">" + 
+		    "ZERO Swing Wallet UI</span></html>");
 		zcashWalletLabel.setBorder(BorderFactory.createEmptyBorder(16, 16, 16, 16));
 		contentPane.add(zcashWalletLabel, BorderLayout.CENTER);
         contentPane.add(southPanel, BorderLayout.SOUTH);
