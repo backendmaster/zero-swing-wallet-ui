@@ -81,13 +81,6 @@ The details of how to build it are described below (easy to follow).
    right-click on the `ZEROSwingWalletUI.jar` file and choose the option "Open with OpenJDK 8 Runtime". 
    This will start the Zero GUI wallet.
 
-### Donations accepted
-At the present time this project is non-commercial in nature and developed by volunteers. If you find the GUI
-Wallet useful, please consider making a donation for its further development. Your contribution matters! Donations 
-are accepted at Zero T address:
-```
-t1UDhNq2aEqvxEbPzcRM8n2QJV8YJ664rXJ
-```
 
 ### License
 This program is distributed under an [MIT License](https://github.com/vaklinov/zero-swing-wallet-ui/raw/master/LICENSE).
